@@ -1,0 +1,9 @@
+variables are not available on a global scale, to make a module available outside its module
+we have to access the export object in the module which is set as an empty dictionary
+export {}
+to avoid overwriting one would need to use const instead of var.
+
+scanning a js code , one might wanna use jshint
+
+module.export.log => this way we be exporting an object
+module.exports => log; this way we exporting a function
