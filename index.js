@@ -66,3 +66,5 @@ emitter.on("logging", (arg)=>{
 })
 
 emitter.emit("logging", {id:2, name:"franklin", server_port: "8080"})
+// the real world way to do it, extending the eventemitter
+
